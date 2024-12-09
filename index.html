@@ -25,7 +25,7 @@
 	    <div class="header">
 
 	      <div class="container">
-	        <h1 id="app_title">%title%</h1>
+	        <h1 id="app_title">{{ title }}</h1>
 	      </div>
 
 	    </div>
@@ -38,17 +38,17 @@
 	            <div class="thumbnail">
 
 						<img class="poster img-fluid" />
-						<div class="imageInfo">%posterindex%</div>
+						<div class="imageInfo">{{ posterindex }}</div>
 
-						<p class="title">%title% (%country%)</p>
-						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> %iscore% </p>
-						<p class="runtime">Runtime: %runtime%</p>
-						<p class="released">Released: %released% | Rated: %rating%</p>
-						<p class="websites">Websites: <a> imdb </a> | <a>website</a></p>
+						<p class="title">{{ title }} ({{ country }})</p>
+						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{ iscore }}</p>
+						<p class="runtime">Runtime: {{ runtime }}</p>
+						<p class="released">Released: {{ released }} | Rated: {{ rating }}</p>
+						<p class="websites">Websites: <a> {{ imdb }} </a> | <a>{{ website }}</a></p>
 
 			            <div class="social">
-			              <p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> %likes%</p>
-			              <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> %dislikes%</p>
+			              <p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{ likes }}</p>
+			              <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> {{ dislikes }}</p>
 			            </div>
 	            </div>
 	        </div>
@@ -59,7 +59,7 @@
 	    <div class="footer">
 	      <div class="container">
 			<a id="github" class="btn btn-lg btn-warning">
-				<i class="bi bi-github me-2"></i>%owner%
+				<i class="bi bi-github me-2"></i>Zachary Levin
 	  		</a>
 	      </div>
 	    </div>
