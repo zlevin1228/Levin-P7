@@ -37,18 +37,18 @@
 	        <div class="col-md-6">
 	            <div class="thumbnail">
 
-						<img class="poster img-fluid" />
-						<div class="imageInfo">{{ posterindex }}</div>
+						<img class="poster img-fluid" v-bind:src="movies[0].posters[0]" />
+						<div class="imageInfo">{{ movies[0].posterindex }}</div>
 
-						<p class="title">{{ title }} ({{ country }})</p>
-						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{ iscore }}</p>
-						<p class="runtime">Runtime: {{ runtime }}</p>
-						<p class="released">Released: {{ released }} | Rated: {{ rating }}</p>
-						<p class="websites">Websites: <a> {{ imdb }} </a> | <a>{{ website }}</a></p>
+						<p class="title">{{ movies[0].title }} ({{ movies[0].country }})</p>
+						<p class="score"><i class="bi bi-star" aria-hidden="true"></i> {{ movies[0].iscore }}</p>
+						<p class="runtime">Runtime: {{ movies[0].runtime }}</p>
+						<p class="released">Released: {{ movies[0].released }} | Rated: {{ movies[0].rating }}</p>
+						<p class="websites">Websites: <a v-bind:href="movies[0].posters[0]" target="_blank"> IMDB</a> | <a v-bind:href="movies[0].website" target="_blank">Website</a></p>
 
 			            <div class="social">
-			              <p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{ likes }}</p>
-			              <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> {{ dislikes }}</p>
+			              <p class="likes"><i class="bi bi-hand-thumbs-up" aria-hidden="true"></i> {{ movies[0].likes }}</p>
+			              <p class="dislikes"><i class="bi bi-hand-thumbs-down"></i> {{ movies[0].dislikes }}</p>
 			            </div>
 	            </div>
 	        </div>
