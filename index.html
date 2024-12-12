@@ -45,7 +45,7 @@
 							<i class="bi bi-star" aria-hidden="true"></i> {{
 							movies[index].iscore }}
 						</p>
-						<p class="runtime">Runtime: {{ movies[index].runtime }}</p>
+						<p class="runtime">Runtime: {{ timeText(movies[index].runtime) }}</p>
 						<p class="released">
 							Released: {{ getMonthText(movies[index].released) }} | Rated: {{
 							movies[index].rating }}
