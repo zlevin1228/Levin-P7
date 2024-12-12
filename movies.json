@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "My Cousin Vinny",
+            "iscore": 7.6,
+            "rating": "R",
+            "runtime": 120,
+            "released": [1992, 3, 13],
+            "country": "USA",
+            "posters": ["img/mycousinvinny1.jpg", "img/mycousinvinny2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0104952/",
+            "website": "https://en.wikipedia.org/wiki/My_Cousin_Vinny",
+            "likes": 859,
+            "dislikes": 145,
+            "posterindex": 0
+      },
+      {
+            "title": "The Naked Gun: From the Files of Police Squad",
+            "iscore": 7.6,
+            "rating": "R",
+            "runtime": 85,
+            "released": [1988, 12, 2],
+            "country": "USA",
+            "posters": ["img/nakedgun1.jpg", "img/thenakedgun2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0095705/",
+            "website": "https://www.paramountmovies.com/movies/the-naked-gun-from-the-files-of-police-squad",
+            "likes": 841,
+            "dislikes": 126,
+            "posterindex": 0
+      },
+      {
+            "title": "Real Genius",
+            "iscore": 6.9,
+            "rating": "PG",
+            "runtime": 108,
+            "released": [1985, 8, 7],
+            "country": "USA",
+            "posters": ["img/realgenius1.jpg", "img/realgenius2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0089886/",
+            "website": "https://www.sonypictures.com/movies/realgenius",
+            "likes": 746,
+            "dislikes": 206,
+            "posterindex": 0
       }
 ]
